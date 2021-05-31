@@ -125,6 +125,8 @@ This graph shows how more action-related genres have more sales than the rest.
 ###  What kind of ESRB ratings do top selling games have?
 
 ###  Which publishers have received the most sales? (Ky)
+This section shows the top 10 publishers according to their total sales. As seen in the graph, the top 3 Publishers according to our data is Nintendo, Activision, and Electronic Arts. It makes sense that Nintendo takes the number one spot because the company has been around for a while. Nintendo was founded around 130 years ago (September 23, 1889). They have been releasing their games for a long time which leads to more sale for their company. Activision also takes the top spot which we think is only possible because of ther continuous release of the Call of Duty Series. They release a new Call of Duty once every few years which makes their sales go higher.
+
 ![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/topPubs.png)
 
 ###  What are the sales trends of certain games in different regions?
@@ -153,6 +155,9 @@ Overall, titles such as Grand Theft Auto and Call of Duty have been consistent i
 ###  Do certain regions lean towards specific game genres?
 
 ###  On what platform do games receive more sales? (Ky)
+
+In this section, we wanted to find the data on the top platforms that received the most sales. From the Graph, it can be ovserved that the top consoles are usually under the companies of Microsoft and Sony along with the PCs. From these observations, we can hypothesize that gaming platforms that were produced by Sony and Microsoft have high sales in games. The same can be concluded with the PC. From this data, we can suggest to future game developers that if they want to possibly have high game sales, they can focus developing games PCs and gaming platforms developed by Microsoft and Sony. 
+
 ![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/top%2010%20game%20consoles.png)
 
 ###  What is the relationship between the critic & user scores to the game’s sales?

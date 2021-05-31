@@ -16,7 +16,7 @@ Outline:
 
 ## Motivation
 
-<div style="text-align: justify"> 
+{: style="text-align: justify" }
   
 Video games has served the purpose as a way to escape the real world and into an imaginary world where people can focus on something they truly enjoy. It has become something allows us to de-stress and have fun while playing. It has also allowed friends and strangers to interact or play with each other creating stronger bonds no matter where you are in the world. This is more evident especially during these times of quarantine where people cannot simply meet each other. These video games gave a platform to people to continue to interact with each other and enjoy everyones presence even if it is just online. Video games has also lead to thousands of jobs around the world from game developers, to professional e-sport atheletes, and to livestreamers. Video games has opened countless opportunities for people to experience.
 
@@ -27,8 +27,6 @@ The visualization below (Made by Pelham Smithers) shows the rise of revenue earn
 ![Image](timeline.jpg)
 
 The speed of how fast the gaming industry has grown has peaked the interest of our group hence we wanted to dwell deeper into the video game sales. We wanted to find out the different players or factors that come into play when it comes to high successful sales. We want to be able to find certain trends within the video game sales. We also want to find out who are the top conteders in their own category. Through this, we might be able to see what can make a successful game.
-
-</div>
 
 
 ## Datasets Used

@@ -1,3 +1,16 @@
+# Video Game Sales
+
+Outline:
+- Talk about the impact of video games and how its sales has become dominant around the world
+- Explain why we are studying this topic
+- Explain the datasets used
+- Breeze through some cleaning processes
+- Show 10 Research questions
+- Quickly answer and explain the questions
+- Concluding Remarks
+
+---- Don't Mind These, To Be Deleted later ----
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Secade/DATASCI-Video-Game-Sales/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

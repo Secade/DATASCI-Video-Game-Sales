@@ -99,6 +99,23 @@ With all the data available, we can finally do some analysis
 
 ## Exploratory Data Analysis (EDA)
 
+To guide our analysis we created 10 research questions that we wanted to answer by the end of this study. The questions are as follows:
+
+- What genre of games have the highest sales?
+- What kind of ESRB ratings do top selling games have?
+- Which publishers have received the most sales?
+- What are the sales trends of certain games in different regions?
+- Do certain regions lean towards specific game genres?
+- On what platform do games receive more sales?
+- What is the relationship between the critic & user scores to the game’s sales?
+- Are newer games able to compare against older games with sales?
+- What is the trend of newer video game releases per console?
+- What are the top genres for the ESRB Ratings
+
+We will be going through each question one by one and showing different visuals and how we understood the data.
+
+### What genre of games have the highest sales?
+
 https://www.grandviewresearch.com/industry-analysis/video-game-market
 https://www.reuters.com/article/sponsored/popularity-of-gaming
 https://www.visualcapitalist.com/50-years-gaming-history-revenue-stream/

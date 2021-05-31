@@ -3,47 +3,49 @@
 ![Image](games.jpg)
 
 ## Motivation
-
-<div style="text-align: justify">
   
 Video games has served the purpose as a way to escape the real world and into an imaginary world where people can focus on something they truly enjoy. It has become something allows us to de-stress and have fun while playing. It has also allowed friends and strangers to interact or play with each other creating stronger bonds no matter where you are in the world. This is more evident especially during these times of quarantine where people cannot simply meet each other. These video games gave a platform to people to continue to interact with each other and enjoy everyones presence even if it is just online. Video games has also lead to thousands of jobs around the world from game developers, to professional e-sport atheletes, and to livestreamers. Video games has opened countless opportunities for people to experience.
   
-<br>
-<br>
+![Image](motivation.jpg)
 
 Over the past few decades, video games have slowly taken over the world by storm. From the introduction of the first commercially successful video game "Pong" to the present day cloud gaming services. The gaming industry has been alive for only around 49 years but it has become one of the largest profitable markets in the world. According to the Visual Capitalist, in 2020, the gaming industry was estimated to have earned a revenue of $165 billion. Gaming has become the biggest entertainment market by beating markets like television, film box office, and digital music. Through innovation and constant increase in popularity, it is said that its revenue forecast will hit $291 billion by 2027. It has been a couple of years now that the gaming industry has dominated the world market and has become a more accepted aspect of life for a majority of people around the world.
 
-<br>
-<br>
-  
 The visualization below (Made by Pelham Smithers) shows the rise of revenue earned by the gaming industry over the 49 year life span. It shows how different consoles affected the market by gaining pieces of it over the years. It also shows important releases made over the decades.
   
-</div>
-
 ![Image](timeline.jpg)
-
-<div style="text-align: justify">
 
 The speed of how fast the gaming industry has grown has peaked the interest of our group hence we wanted to dwell deeper into the video game sales. We wanted to find out the different players or factors that come into play when it comes to high successful sales. We want to be able to find certain trends within the video game sales. We also want to find out who are the top conteders in their own category. Through this, we might be able to see what can make a successful game.
   
-</div>
-
 
 ## Datasets Used
 
+![Image](2019.png)
+
 Before we dive into exploring the data regarding video game sales, we want to explain first the data set that we used. A data set is basically a file that contains thousands of information regarding a certain topic. For this research, we looked through a free public data set library website called Kaggle which allows people to download data sets provided by other people. After a bit of searching, we found a particularly good data set simply called Video Game Sales 2019. It contained all the information we needed. It had over 55,000+ games and had information like the game's genre, publisher, sales numbers, and esrb rating. 
 
-![Image](2019.png)
+![Image](chart.png)
 
 The way the author (Abdulshaheed Alqunber) collected this data is through an automated trick called web scrapping wherein you write a certain script that will go through a specific website and collect information from it. The author based his web scrapping script of GregorUT's script which utilizes the Python library called "BeautifulSoup" which is a web scrapping library. They wanted to collect data from a verified source which is why they chose to scrape the data from VGChartz.com which is a public website that holds statistics on thousands of games from their release dates, to genres, and to their sales. So with that, they developed the script that went through the entire website and collected the data they needed. This is how the data that you will see later in the database was collected. This entire process may seem a bit sketchy but the authors made sure that what they are doing is legal and allowed by the website owners.
 
 After getting the Video Game Sales 2019 dataset, we thought if we could possibly get a more updated database since the 2019 version is 2 years old already. The first thing that we did is to try to use the web scrapping script that the authors published in order to scrape the information ourselves. However, after thinkering and setting up the scripts, they didn't seem to run as intended. The script kept crashing and we noticed that the problem was related to the proxy server that we needed to use in order to connect to the site. After multiple failed attempts to find a working proxy, we decided to look for a more updated dataset in Kaggle. Thankfully, we were able to find a more recent version. 
 
+![Image](2020.png)
+
 The data set is called Video Game Sales 2020 which was based off the 2019 but was published by a different author. This version collected its data on July 7, 2020. We were happy with this update already. The biggest difference between the two datasets is that the 2020 version lacks the ESRB Ratings for the games. ESRB Ratings are essentially age-restriction labels placed by the ESRB Organization. This rating helps identify what age group can play said game. With this, we decided to just merge both the 2019 and the 2020 data sets together to create an updated complete dataset. Doing so allowed us to properly analyze and process the data easily. 
+
+Video Game Sales 2019: https://www.kaggle.com/ashaheedq/video-games-sales-2019
+
+Video Game Sales 2020: https://www.kaggle.com/baynebrannen/video-game-sales-2020
+
+VGChartz Web Scrapping Script: https://github.com/GregorUT/vgchartzScrape
+
+VGChartz Database Website: https://www.vgchartz.com/gamedb/
 
 Now that we have our complete data set, we will now try to clean, analyze, and process the data so that it can be more useful for us later down the line.
 
 ## Cleaning & Analyzing The Data
+
+![Image](null.png)
 
 Aside from merging the two datasets together we had to do some cleaning in the data set since we noticed some weird things. The first thing that we did is to check the number of "null" or empty values there are for each column. We noticed that there are some columns that had a lot of missing data. We needed to fill in this data somehow in order to have more consistent data. We did two major things to change the data. 
 
@@ -54,6 +56,8 @@ The second adjustment we did was regarding the ESRB Rating, we noticed that ther
 After dealing with the empty values, we then removed some useless columns that did not help our analysis. We dropped the "Unnamed: 0", "img", and "last_update" columns since we didn't need their data anyways. With that, we finished processing our data set. The next section will explain the contents of the final data set.
 
 ## Contents of the Data Set
+
+![Image](data.png)
 
 The data set has the following features
 
@@ -89,6 +93,8 @@ With all the data available, we can finally do some analysis
 
 ## Exploratory Data Analysis (EDA)
 
+![Image](eda.png)
+
 To guide our analysis we created 10 research questions that we wanted to answer by the end of this study. The questions are as follows:
 
 - What genre of games have the highest sales?
@@ -106,7 +112,11 @@ We will be going through each question one by one and showing different visuals 
 
 ### What genre of games have the highest sales?
 
-In this section we show the top 20 genre and their total sales. The top 3 genres are shooter, sports, and action. These results are not surprising since franchises such as Call of Duty series, FIFA/2K series, or the BioShock series have been popular titles in their own genres. They have been releasing multiple titles under the same name which has lead to a hardcore following where fans keep buying the next series. This further increases the popularity of the genre which leads to even more games being developed in order to lure these fans to other games of the same genre. 
+In this graph we show the top 20 genres and their total sales. The top 3 genres are shooter, sports, and action. These results are not surprising since franchises such as the Call of Duty series, the FIFA/2K series, or the BioShock series have been popular titles in their own genres. They have been releasing multiple titles under the same name which has lead to a hardcore following where fans keep buying the next series. This further increases the popularity of the genre which leads to even more games being developed in order to lure these fans to other games of the same genre. 
+
+On the otherhand, the genres with the lowest sales are MMO, Visual Novel, and Board Games. I would believe that MMOs and Board Games actually have high sales but must not have been included in the data set that we are using. Visual novels though is reasonable since majority of visual novels are from Japan and have a rather smaller niche community compared to the fans of shooter games.
+
+This graph shows how more action-related genres have more sales than the rest.
 
 ![Image](11.png)
 
@@ -121,17 +131,26 @@ This section shows the top 10 publishers according to their total sales. As seen
 
 ###  What are the sales trends of certain games in different regions?
 
-This section shows the top 10 games according to their total sales per region. For the NA graph, the games that showed up are understandable since NA is more into the shooter, action, adventure genre of games such as Grand Theft Auto and Call of Duty. These game titles have been popular in NA for quite some time now. For the JP graph, these are games mostly developed and released in Japan hence it has more japanese sales. Grand Theft Auto can be seen within the chart but the other Japanese games are still dominating the region. For PAL on the other hand, it is similar to the interests of the NA region except for the dominance of the sports genre, especially FIFA. FIFA holds a big portion of sales within the PAL region. The sports genre is famous around the European, South American, and South African areas, hence the growth of the sports genre in the region. Lastly, for the other regions, it is similar to the trends for the NA region with shooters and action games taking a big portion of the top 10. 
+These graphs show the top 10 games according to their total sales per region. 
 
-Overall, titles such as Grand Theft Auto and Call of Duty have been consistent in the 4 provided regions. Which can also explain the amount of sales genres like shooters and action are getting. These games have a big following all throughout the world. 
+For the NA graph, the games that showed up are understandable since NA is more into the shooter, action, adventure genre of games such as Grand Theft Auto and Call of Duty. These game titles have been popular in NA for quite some time now. Culturally speaking, Americans are more laxed when it comes to guns and violence which can probably explain why such genres are popular.
 
 ![Image](41.png)
 
+For the JP graph, these are games mostly developed and released in Japan hence it has more japanese sales. Grand Theft Auto can be seen within the chart but the other Japanese games are still dominating the region. These games are a bit more tame compared to the games in NA since they are mostly adventure or fighting games.
+
 ![Image](42.png)
+
+For PAL on the other hand, it is similar to the interests of the NA region except for the dominance of the sports genre, especially FIFA. FIFA holds a big portion of sales within the PAL region. The sports genre is famous around the European, South American, and South African areas, hence the growth of the sports genre in the region. 
 
 ![Image](43.png)
 
+Lastly, for the other regions, it is similar to the trends for the NA region with shooters and action games taking a big portion of the top 10. Majority of the trends in other countries replicate the trends of NA as well since they are the games that are usually more popular and receive more attention.
+
 ![Image](44.png)
+
+Overall, titles such as Grand Theft Auto and Call of Duty have been consistent in the 4 provided regions. Which can also explain the amount of sales genres like shooters and action are getting. These games have a big following all throughout the world. 
+
 
 ###  Do certain regions lean towards specific game genres?
 
@@ -143,7 +162,7 @@ In this section, we wanted to find the data on the top platforms that received t
 
 ###  What is the relationship between the critic & user scores to the game’s sales?
 
-With this, there is not enough data to create a solid analysis on the relationship of critic/user score towards game sales since the ratings vary even with high/low selling games. One observation is that on average, users score games higher compared to critic scores. This is evident in the games above the top 50. The games in the top 50 seem to have higher critic scores than user scores. Though the scores for some games may be high, they do not show a lot of game sales. This needs to be validated by seeing how many critics or users scored that specific game to see how the scale is tipped.
+With this, there is not enough data to create a solid analysis on the relationship of critic/user score towards game sales since the ratings vary even with high/low selling games. One observation is that on average, users score games higher compared to critic scores. Though the scores for some games may be high, they do not show a lot of high game sales. This needs to be validated by seeing how many critics or users scored that specific game to see how the scale is tipped.
 
 As it can be seen in the scatterplot, the trends of the critic and user scores are similar to each other from the entire range of sales, may it be low or high sales.
 
@@ -156,9 +175,13 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 
 ###  What are the top genres for the ESRB Ratings?
 
-This section shows the genmre of games popular for the top 3 ESRB ratings (Mature, Teen, and Everyone). For the everyone rating, famous genres are sports, miscellanous, puzzle, and racing games. These kinds of games are definitely for any age since they do not contain much violence, gore, or suggestive themes. These kinds of games stay true to their genre and replicate what they are trying to copy. Sports games like FIFA and 2K stay true to the rules of the sport. Racing games are focused on the racing aspect of the game, while puzzles are focused on the thinking aspect of games. For Teen and Mature, they have similar Top 3 genres which are role-playing, action, and shooter. These games now tend to have violence and sensitive themes within the game hence for such rating. The difference between the two are in the top 4 and 5. Teen has more fighting and strategy games. These games have mild violence only. Fighting games are just people punching or hurting one another while strategy games are mostly destruction based objectives. 
+These graphs shows the genres of games popular for the top 3 ESRB ratings (Mature, Teen, and Everyone). 
+
+For the everyone rating, famous genres are sports, miscellanous, puzzle, and racing games. These kinds of games are definitely for any age since they do not contain much violence, gore, or suggestive themes. These kinds of games stay true to their genre and replicate what they are trying to copy. Sports games like FIFA and 2K stay true to the rules of the sport. Racing games are focused on the racing aspect of the game, while puzzles are focused on the thinking aspect of games. 
 
 ![Image](101.png)
+
+For Teen and Mature, they have similar Top 3 genres which are role-playing, action, and shooter. These games now tend to have violence and sensitive themes within the game hence for such rating. The difference between the two are in the top 4 and 5. Teen has more fighting and strategy games. These games have mild violence only. Fighting games are just people punching or hurting one another while strategy games are mostly destruction based objectives. 
 
 ![Image](102.png)
 

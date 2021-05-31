@@ -115,6 +115,7 @@ In this section we show the top 20 genre and their total sales. The top 3 genres
 ###  What kind of ESRB ratings do top selling games have?
 
 ###  Which publishers have received the most sales? (Ky)
+![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/topPubs.png)
 
 ###  What are the sales trends of certain games in different regions?
 
@@ -133,6 +134,7 @@ Overall, titles such as Grand Theft Auto and Call of Duty have been consistent i
 ###  Do certain regions lean towards specific game genres?
 
 ###  On what platform do games receive more sales? (Ky)
+![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/top%2010%20game%20consoles.png)
 
 ###  What is the relationship between the critic & user scores to the game’s sales?
 
@@ -145,6 +147,7 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 ###  Are newer games able to compare against older games with sales?
 
 ###  What is the trend of newer video game releases per console? (Ky)
+![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/trend.png)
 
 ###  What are the top genres for the ESRB Ratings?
 

@@ -1,8 +1,6 @@
-![Image](games.jpg)
-
 # Video Game Sales
 
-
+![Image](games.jpg)
 
 Outline:
 - Talk about the impact of video games and how its sales has become dominant around the world
@@ -134,6 +132,8 @@ We will be going through each question one by one and showing different visuals 
 
 ###  What are the top genres for the ESRB Ratings
 
+
+## Concluding Remarks
 
 ## Sources
 https://www.grandviewresearch.com/industry-analysis/video-game-market

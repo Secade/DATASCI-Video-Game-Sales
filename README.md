@@ -44,6 +44,44 @@ First is that we created a new column called "Total Sales". It can be noticed th
 
 The second adjustment we did was regarding the ESRB Rating, we noticed that there is a gigantic percentage of it that is missing data and might skew the results later down the line. At first we tried to look for other data sets that we can use to merge with our complete data set but we were not able to find a data set that had a similar format to ours. Others had more complex rating systems, different game title formatting, or even just a lack of games in general. So what we decided to do is to manually find the ESRB Rating for each of the game that had a total sale that is not 0. This was a tedious process since there were thousands of data points that we had to fill in. What added to the trouble is that there were games with no official rating so we were forced to leave them empty. In the end, we were able to fill up a good chunk of the missing data which we think is enough for our analysis down the line. 
 
+After dealing with the empty values, we then removed some useless columns that did not help our analysis. We dropped the "Unnamed: 0", "img", and "last_update" columns since we didn't need their data anyways. With that, we finished processing our data set. The next section will explain the contents of the final data set.
+
+## Contents of the Data Set
+
+The data set has the following features
+
+- 55845 games (36808 unique game titles)
+- 77 unique consoles
+- 20 unique genres
+- 8 unique ESRB Ratings
+- 3141 unique publishers
+- 8189 unique developers
+- 17 different feature columns
+
+Each column has its own definition which is listed below.
+
+- title - Name of the game
+- console - The specific console the game is running on (PC, PS4, XBox, etc.)
+- genre - The specific genre of the game (Action, MMO, Adventure, etc.)
+- publisher - The company that published/distributed the game
+- developer - The company that developed the game
+- vg_score - The game rating provided by VGChartz
+- critic_score - The game rating provided by game critics
+- user_score - The game rating provided by the players
+- total_shipped - Total sales received from the copies of the game (in millions)
+- global_sales - Total sales earned (in millions)
+- na_sales - Sales from North America (in millions)
+- jp_sales - Sales from Japan (in millions)
+- pal_sales - Sales from PAL (Most of Europe, Asia, Oceania, etc.) (in millions)
+- other_sales - Sales from the rest of the world (in millions)
+- release_date - The date the game was released
+- ESRB_Rating - The official ESRB rating provided (Age restriction) (Everyone, Teen, Mature, etc.)
+- Total_Sales - The total amount of sales earned by the game
+
+With all the data available, we can finally do some analysis
+
+## Exploratory Data Analysis (EDA)
+
 https://www.grandviewresearch.com/industry-analysis/video-game-market
 https://www.reuters.com/article/sponsored/popularity-of-gaming
 https://www.visualcapitalist.com/50-years-gaming-history-revenue-stream/

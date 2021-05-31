@@ -3,41 +3,33 @@
 ![Image](games.jpg)
 
 ## Motivation
-
-<div style="text-align: justify">
   
 Video games has served the purpose as a way to escape the real world and into an imaginary world where people can focus on something they truly enjoy. It has become something allows us to de-stress and have fun while playing. It has also allowed friends and strangers to interact or play with each other creating stronger bonds no matter where you are in the world. This is more evident especially during these times of quarantine where people cannot simply meet each other. These video games gave a platform to people to continue to interact with each other and enjoy everyones presence even if it is just online. Video games has also lead to thousands of jobs around the world from game developers, to professional e-sport atheletes, and to livestreamers. Video games has opened countless opportunities for people to experience.
   
-<br>
-<br>
+![Image](motivation.jpg)
 
 Over the past few decades, video games have slowly taken over the world by storm. From the introduction of the first commercially successful video game "Pong" to the present day cloud gaming services. The gaming industry has been alive for only around 49 years but it has become one of the largest profitable markets in the world. According to the Visual Capitalist, in 2020, the gaming industry was estimated to have earned a revenue of $165 billion. Gaming has become the biggest entertainment market by beating markets like television, film box office, and digital music. Through innovation and constant increase in popularity, it is said that its revenue forecast will hit $291 billion by 2027. It has been a couple of years now that the gaming industry has dominated the world market and has become a more accepted aspect of life for a majority of people around the world.
 
-<br>
-<br>
-  
 The visualization below (Made by Pelham Smithers) shows the rise of revenue earned by the gaming industry over the 49 year life span. It shows how different consoles affected the market by gaining pieces of it over the years. It also shows important releases made over the decades.
   
-</div>
-
 ![Image](timeline.jpg)
-
-<div style="text-align: justify">
 
 The speed of how fast the gaming industry has grown has peaked the interest of our group hence we wanted to dwell deeper into the video game sales. We wanted to find out the different players or factors that come into play when it comes to high successful sales. We want to be able to find certain trends within the video game sales. We also want to find out who are the top conteders in their own category. Through this, we might be able to see what can make a successful game.
   
-</div>
-
 
 ## Datasets Used
 
+![Image](2019.png)
+
 Before we dive into exploring the data regarding video game sales, we want to explain first the data set that we used. A data set is basically a file that contains thousands of information regarding a certain topic. For this research, we looked through a free public data set library website called Kaggle which allows people to download data sets provided by other people. After a bit of searching, we found a particularly good data set simply called Video Game Sales 2019. It contained all the information we needed. It had over 55,000+ games and had information like the game's genre, publisher, sales numbers, and esrb rating. 
 
-![Image](2019.png)
+![Image](chart.png)
 
 The way the author (Abdulshaheed Alqunber) collected this data is through an automated trick called web scrapping wherein you write a certain script that will go through a specific website and collect information from it. The author based his web scrapping script of GregorUT's script which utilizes the Python library called "BeautifulSoup" which is a web scrapping library. They wanted to collect data from a verified source which is why they chose to scrape the data from VGChartz.com which is a public website that holds statistics on thousands of games from their release dates, to genres, and to their sales. So with that, they developed the script that went through the entire website and collected the data they needed. This is how the data that you will see later in the database was collected. This entire process may seem a bit sketchy but the authors made sure that what they are doing is legal and allowed by the website owners.
 
 After getting the Video Game Sales 2019 dataset, we thought if we could possibly get a more updated database since the 2019 version is 2 years old already. The first thing that we did is to try to use the web scrapping script that the authors published in order to scrape the information ourselves. However, after thinkering and setting up the scripts, they didn't seem to run as intended. The script kept crashing and we noticed that the problem was related to the proxy server that we needed to use in order to connect to the site. After multiple failed attempts to find a working proxy, we decided to look for a more updated dataset in Kaggle. Thankfully, we were able to find a more recent version. 
+
+![Image](2020.png)
 
 The data set is called Video Game Sales 2020 which was based off the 2019 but was published by a different author. This version collected its data on July 7, 2020. We were happy with this update already. The biggest difference between the two datasets is that the 2020 version lacks the ESRB Ratings for the games. ESRB Ratings are essentially age-restriction labels placed by the ESRB Organization. This rating helps identify what age group can play said game. With this, we decided to just merge both the 2019 and the 2020 data sets together to create an updated complete dataset. Doing so allowed us to properly analyze and process the data easily. 
 
@@ -53,6 +45,8 @@ Now that we have our complete data set, we will now try to clean, analyze, and p
 
 ## Cleaning & Analyzing The Data
 
+![Image](null.png)
+
 Aside from merging the two datasets together we had to do some cleaning in the data set since we noticed some weird things. The first thing that we did is to check the number of "null" or empty values there are for each column. We noticed that there are some columns that had a lot of missing data. We needed to fill in this data somehow in order to have more consistent data. We did two major things to change the data. 
 
 First is that we created a new column called "Total Sales". It can be noticed that there are 6 different columns that have sales value. So we decided to combine them into one column to show the total sales for that specific game title. The columns are total_shipped, global_sales, na_sales, jp_sales, pal_sales, and other_sales. We noticed that if total_shipped exists, global_sales doesn't and vice versa. So if either of them exists, then that becomes the total sales value. However, if neither exist, we added the sales from the four regional sales to create the total sales. After that, we were able to get a better view of the sales for each game.
@@ -62,6 +56,8 @@ The second adjustment we did was regarding the ESRB Rating, we noticed that ther
 After dealing with the empty values, we then removed some useless columns that did not help our analysis. We dropped the "Unnamed: 0", "img", and "last_update" columns since we didn't need their data anyways. With that, we finished processing our data set. The next section will explain the contents of the final data set.
 
 ## Contents of the Data Set
+
+![Image](data.png)
 
 The data set has the following features
 
@@ -96,6 +92,8 @@ Each column has its own definition which is listed below.
 With all the data available, we can finally do some analysis
 
 ## Exploratory Data Analysis (EDA)
+
+![Image](eda.png)
 
 To guide our analysis we created 10 research questions that we wanted to answer by the end of this study. The questions are as follows:
 

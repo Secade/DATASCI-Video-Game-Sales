@@ -2,16 +2,6 @@
 
 ![Image](games.jpg)
 
-Outline:
-- Talk about the impact of video games and how its sales has become dominant around the world
-- Explain why we are studying this topic
-- Explain the datasets used
-- Breeze through some cleaning processes
-- Show 10 Research questions
-- Quickly answer and explain the questions
-- Concluding Remarks
-
-
 ## Motivation
 
 <div style="text-align: justify">
@@ -135,7 +125,7 @@ We will be going through each question one by one and showing different visuals 
 
 ## Concluding Remarks
 
-## Sources
+## References
 https://www.grandviewresearch.com/industry-analysis/video-game-market
 https://www.reuters.com/article/sponsored/popularity-of-gaming
 https://www.visualcapitalist.com/50-years-gaming-history-revenue-stream/

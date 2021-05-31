@@ -104,11 +104,11 @@ To guide our analysis we created 10 research questions that we wanted to answer 
 
 We will be going through each question one by one and showing different visuals and how we understood the data.
 
-### What genre of games have the highest sales? (J)
+### What genre of games have the highest sales?
 
 In this section we show the top 20 genre and their total sales. The top 3 genres are shooter, sports, and action. These results are not surprising since franchises such as Call of Duty series, FIFA/2K series, or the BioShock series have been popular titles in their own genres. They have been releasing multiple titles under the same name which has lead to a hardcore following where fans keep buying the next series. This further increases the popularity of the genre which leads to even more games being developed in order to lure these fans to other games of the same genre. 
 
-![Image](1.png)
+![Image](11.png)
 
 
 
@@ -116,7 +116,7 @@ In this section we show the top 20 genre and their total sales. The top 3 genres
 
 ###  Which publishers have received the most sales?
 
-###  What are the sales trends of certain games in different regions? (J)
+###  What are the sales trends of certain games in different regions?
 
 This section shows the top 10 games according to their total sales per region. For the NA graph, the games that showed up are understandable since NA is more into the shooter, action, adventure genre of games such as Grand Theft Auto and Call of Duty. These game titles have been popular in NA for quite some time now. For the JP graph, these are games mostly developed and released in Japan hence it has more japanese sales. Grand Theft Auto can be seen within the chart but the other Japanese games are still dominating the region. For PAL on the other hand, it is similar to the interests of the NA region except for the dominance of the sports genre, especially FIFA. FIFA holds a big portion of sales within the PAL region. The sports genre is famous around the European, South American, and South African areas, hence the growth of the sports genre in the region. Lastly, for the other regions, it is similar to the trends for the NA region with shooters and action games taking a big portion of the top 10. 
 
@@ -134,7 +134,7 @@ Overall, titles such as Grand Theft Auto and Call of Duty have been consistent i
 
 ###  On what platform do games receive more sales?
 
-###  What is the relationship between the critic & user scores to the game’s sales? (J)
+###  What is the relationship between the critic & user scores to the game’s sales?
 
 With this, there is not enough data to create a solid analysis on the relationship of critic/user score towards game sales since the ratings vary even with high/low selling games. One observation is that on average, users score games higher compared to critic scores. This is evident in the games above the top 50. The games in the top 50 seem to have higher critic scores than user scores. Though the scores for some games may be high, they do not show a lot of game sales. This needs to be validated by seeing how many critics or users scored that specific game to see how the scale is tipped.
 
@@ -146,7 +146,7 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 
 ###  What is the trend of newer video game releases per console?
 
-###  What are the top genres for the ESRB Ratings (J)
+###  What are the top genres for the ESRB Ratings?
 
 This section shows the genmre of games popular for the top 3 ESRB ratings (Mature, Teen, and Everyone). For the everyone rating, famous genres are sports, miscellanous, puzzle, and racing games. These kinds of games are definitely for any age since they do not contain much violence, gore, or suggestive themes. These kinds of games stay true to their genre and replicate what they are trying to copy. Sports games like FIFA and 2K stay true to the rules of the sport. Racing games are focused on the racing aspect of the game, while puzzles are focused on the thinking aspect of games. For Teen and Mature, they have similar Top 3 genres which are role-playing, action, and shooter. These games now tend to have violence and sensitive themes within the game hence for such rating. The difference between the two are in the top 4 and 5. Teen has more fighting and strategy games. These games have mild violence only. Fighting games are just people punching or hurting one another while strategy games are mostly destruction based objectives. 
 

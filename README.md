@@ -116,48 +116,26 @@ We will be going through each question one by one and showing different visuals 
 
 ### What genre of games have the highest sales?
 
+###  What kind of ESRB ratings do top selling games have?
+
+###  Which publishers have received the most sales?
+
+###  What are the sales trends of certain games in different regions?
+
+###  Do certain regions lean towards specific game genres?
+
+###  On what platform do games receive more sales?
+
+###  What is the relationship between the critic & user scores to the game’s sales?
+
+###  Are newer games able to compare against older games with sales?
+
+###  What is the trend of newer video game releases per console?
+
+###  What are the top genres for the ESRB Ratings
+
+
+## Sources
 https://www.grandviewresearch.com/industry-analysis/video-game-market
 https://www.reuters.com/article/sponsored/popularity-of-gaming
 https://www.visualcapitalist.com/50-years-gaming-history-revenue-stream/
----- Don't Mind These, To Be Deleted later ----
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Secade/DATASCI-Video-Game-Sales/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Secade/DATASCI-Video-Game-Sales/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-TEST

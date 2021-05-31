@@ -33,6 +33,8 @@ The speed of how fast the gaming industry has grown has peaked the interest of o
 
 Before we dive into exploring the data regarding video game sales, we want to explain first the data set that we used. A data set is basically a file that contains thousands of information regarding a certain topic. For this research, we looked through a free public data set library website called Kaggle which allows people to download data sets provided by other people. After a bit of searching, we found a particularly good data set simply called Video Game Sales 2019. It contained all the information we needed. It had over 55,000+ games and had information like the game's genre, publisher, sales numbers, and esrb rating. 
 
+![Image](2019.png)
+
 The way the author (Abdulshaheed Alqunber) collected this data is through an automated trick called web scrapping wherein you write a certain script that will go through a specific website and collect information from it. The author based his web scrapping script of GregorUT's script which utilizes the Python library called "BeautifulSoup" which is a web scrapping library. They wanted to collect data from a verified source which is why they chose to scrape the data from VGChartz.com which is a public website that holds statistics on thousands of games from their release dates, to genres, and to their sales. So with that, they developed the script that went through the entire website and collected the data they needed. This is how the data that you will see later in the database was collected. This entire process may seem a bit sketchy but the authors made sure that what they are doing is legal and allowed by the website owners.
 
 After getting the Video Game Sales 2019 dataset, we thought if we could possibly get a more updated database since the 2019 version is 2 years old already. The first thing that we did is to try to use the web scrapping script that the authors published in order to scrape the information ourselves. However, after thinkering and setting up the scripts, they didn't seem to run as intended. The script kept crashing and we noticed that the problem was related to the proxy server that we needed to use in order to connect to the site. After multiple failed attempts to find a working proxy, we decided to look for a more updated dataset in Kaggle. Thankfully, we were able to find a more recent version. 
@@ -73,7 +75,7 @@ Each column has its own definition which is listed below.
 - vg_score - The game rating provided by VGChartz
 - critic_score - The game rating provided by game critics
 - user_score - The game rating provided by the players
-- total_shipped - Total sales received from the copies of the game (in millions)
+- total_shipped - Total copies solid (in millions)
 - global_sales - Total sales earned (in millions)
 - na_sales - Sales from North America (in millions)
 - jp_sales - Sales from Japan (in millions)
@@ -102,25 +104,57 @@ To guide our analysis we created 10 research questions that we wanted to answer 
 
 We will be going through each question one by one and showing different visuals and how we understood the data.
 
-### What genre of games have the highest sales? (J)
+### What genre of games have the highest sales?
+
+In this section we show the top 20 genre and their total sales. The top 3 genres are shooter, sports, and action. These results are not surprising since franchises such as Call of Duty series, FIFA/2K series, or the BioShock series have been popular titles in their own genres. They have been releasing multiple titles under the same name which has lead to a hardcore following where fans keep buying the next series. This further increases the popularity of the genre which leads to even more games being developed in order to lure these fans to other games of the same genre. 
+
+![Image](11.png)
+
+
 
 ###  What kind of ESRB ratings do top selling games have?
 
 ###  Which publishers have received the most sales? (Ky)
 
-###  What are the sales trends of certain games in different regions? (J)
+###  What are the sales trends of certain games in different regions?
+
+This section shows the top 10 games according to their total sales per region. For the NA graph, the games that showed up are understandable since NA is more into the shooter, action, adventure genre of games such as Grand Theft Auto and Call of Duty. These game titles have been popular in NA for quite some time now. For the JP graph, these are games mostly developed and released in Japan hence it has more japanese sales. Grand Theft Auto can be seen within the chart but the other Japanese games are still dominating the region. For PAL on the other hand, it is similar to the interests of the NA region except for the dominance of the sports genre, especially FIFA. FIFA holds a big portion of sales within the PAL region. The sports genre is famous around the European, South American, and South African areas, hence the growth of the sports genre in the region. Lastly, for the other regions, it is similar to the trends for the NA region with shooters and action games taking a big portion of the top 10. 
+
+Overall, titles such as Grand Theft Auto and Call of Duty have been consistent in the 4 provided regions. Which can also explain the amount of sales genres like shooters and action are getting. These games have a big following all throughout the world. 
+
+![Image](41.png)
+
+![Image](42.png)
+
+![Image](43.png)
+
+![Image](44.png)
 
 ###  Do certain regions lean towards specific game genres?
 
 ###  On what platform do games receive more sales? (Ky)
 
-###  What is the relationship between the critic & user scores to the game’s sales? (J)
+###  What is the relationship between the critic & user scores to the game’s sales?
+
+With this, there is not enough data to create a solid analysis on the relationship of critic/user score towards game sales since the ratings vary even with high/low selling games. One observation is that on average, users score games higher compared to critic scores. This is evident in the games above the top 50. The games in the top 50 seem to have higher critic scores than user scores. Though the scores for some games may be high, they do not show a lot of game sales. This needs to be validated by seeing how many critics or users scored that specific game to see how the scale is tipped.
+
+As it can be seen in the scatterplot, the trends of the critic and user scores are similar to each other from the entire range of sales, may it be low or high sales.
+
+![Image](7.png)
 
 ###  Are newer games able to compare against older games with sales?
 
 ###  What is the trend of newer video game releases per console? (Ky)
 
-###  What are the top genres for the ESRB Ratings (J)
+###  What are the top genres for the ESRB Ratings?
+
+This section shows the genmre of games popular for the top 3 ESRB ratings (Mature, Teen, and Everyone). For the everyone rating, famous genres are sports, miscellanous, puzzle, and racing games. These kinds of games are definitely for any age since they do not contain much violence, gore, or suggestive themes. These kinds of games stay true to their genre and replicate what they are trying to copy. Sports games like FIFA and 2K stay true to the rules of the sport. Racing games are focused on the racing aspect of the game, while puzzles are focused on the thinking aspect of games. For Teen and Mature, they have similar Top 3 genres which are role-playing, action, and shooter. These games now tend to have violence and sensitive themes within the game hence for such rating. The difference between the two are in the top 4 and 5. Teen has more fighting and strategy games. These games have mild violence only. Fighting games are just people punching or hurting one another while strategy games are mostly destruction based objectives. 
+
+![Image](101.png)
+
+![Image](102.png)
+
+![Image](103.png)
 
 
 ## Concluding Remarks

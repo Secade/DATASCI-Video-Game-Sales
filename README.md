@@ -41,6 +41,14 @@ After getting the Video Game Sales 2019 dataset, we thought if we could possibly
 
 The data set is called Video Game Sales 2020 which was based off the 2019 but was published by a different author. This version collected its data on July 7, 2020. We were happy with this update already. The biggest difference between the two datasets is that the 2020 version lacks the ESRB Ratings for the games. ESRB Ratings are essentially age-restriction labels placed by the ESRB Organization. This rating helps identify what age group can play said game. With this, we decided to just merge both the 2019 and the 2020 data sets together to create an updated complete dataset. Doing so allowed us to properly analyze and process the data easily. 
 
+Video Game Sales 2019: https://www.kaggle.com/ashaheedq/video-games-sales-2019
+
+Video Game Sales 2020: https://www.kaggle.com/baynebrannen/video-game-sales-2020
+
+VGChartz Web Scrapping Script: https://github.com/GregorUT/vgchartzScrape
+
+VGChartz Database Website: https://www.vgchartz.com/gamedb/
+
 Now that we have our complete data set, we will now try to clean, analyze, and process the data so that it can be more useful for us later down the line.
 
 ## Cleaning & Analyzing The Data

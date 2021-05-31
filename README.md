@@ -136,6 +136,9 @@ Overall, titles such as Grand Theft Auto and Call of Duty have been consistent i
 ###  Do certain regions lean towards specific game genres?
 
 ###  On what platform do games receive more sales? (Ky)
+
+In this section, we wanted to find the data on the top platforms that received the most sales. From the Graph, it can be ovserved that the top consoles are usually under the companies of Microsoft and Sony along with the PCs. From these observations, we can hypothesize that gaming platforms that were produced by Sony and Microsoft have high sales in games. The same can be concluded with the PC. From this data, we can suggest to future game developers that if they want to possibly have high game sales, they can focus developing games on the mentioned platforms. 
+
 ![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/top%2010%20game%20consoles.png)
 
 ###  What is the relationship between the critic & user scores to the game’s sales?

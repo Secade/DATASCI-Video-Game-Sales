@@ -73,7 +73,7 @@ Each column has its own definition which is listed below.
 - vg_score - The game rating provided by VGChartz
 - critic_score - The game rating provided by game critics
 - user_score - The game rating provided by the players
-- total_shipped - Total sales received from the copies of the game (in millions)
+- total_shipped - Total copies solid (in millions)
 - global_sales - Total sales earned (in millions)
 - na_sales - Sales from North America (in millions)
 - jp_sales - Sales from Japan (in millions)
@@ -104,11 +104,21 @@ We will be going through each question one by one and showing different visuals 
 
 ### What genre of games have the highest sales? (J)
 
+![Image](1.png)
+
 ###  What kind of ESRB ratings do top selling games have?
 
 ###  Which publishers have received the most sales?
 
 ###  What are the sales trends of certain games in different regions? (J)
+
+![Image](41.png)
+
+![Image](42.png)
+
+![Image](43.png)
+
+![Image](44.png)
 
 ###  Do certain regions lean towards specific game genres?
 
@@ -116,11 +126,19 @@ We will be going through each question one by one and showing different visuals 
 
 ###  What is the relationship between the critic & user scores to the game’s sales? (J)
 
+![Image](7.png)
+
 ###  Are newer games able to compare against older games with sales?
 
 ###  What is the trend of newer video game releases per console?
 
 ###  What are the top genres for the ESRB Ratings (J)
+
+![Image](101.png)
+
+![Image](102.png)
+
+![Image](103.png)
 
 
 ## Concluding Remarks

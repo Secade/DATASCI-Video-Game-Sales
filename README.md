@@ -133,6 +133,14 @@ Overall, titles such as Grand Theft Auto and Call of Duty have been consistent i
 
 ###  Do certain regions lean towards specific game genres?
 
+In terms of game sales, there are 4 "regions" namely Japan(JP), North America(NA), Phase Alternate Line or PAL, and other regions not included in the first 3. In the first graph seen, all 4 regions highly gravite towards Sports Genre. This is understandable because Sports video games like NBA and FIFA release games every year and also on special events.
+
+![Image](genre_region_melt.png)
+
+Upon closer inspection, the top genre for each region slightly differs. For JP, the top genre would be Role-Playing while Sports in only second. For PAL, Action is the top genre while Sports is also only second. For both NA and other regions, Sports is the top while Action places second. Action being one of the top selling genres makes sense as it also has the most number of games in the dataset.
+
+![Image](genre_region_indiv.png)
+
 ###  On what platform do games receive more sales? (Ky)
 ![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/top%2010%20game%20consoles.png)
 

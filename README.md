@@ -182,7 +182,7 @@ In terms of old and new games, the consideration is subjective. For others, game
 
 As seen in the graph below, old games, throughout the years increase in sales. This is expected as old games are still available for purchase even now. It is noticeable that there are peaks within the sales, this could be because of a release of a sought-after game or a release of a new gaming console. For example in the year 2007, the Playstation 3 and Xbox 360 were released. In that year, the sales for video games reached a total of 958.4 million.
 
-![Image](old_game_sales.png)
+![Image](old_games_sales.png)
 
 In newer games, the trend of sales seems to decrease per year. This could possibly be because of the rising popularity of Free-to-Play games. Popular games of this era like League of Legends, APEX legends, Dota 2, Fortnite and many more are Free-to-Play games where people can choose to purchase cosmetics for a fixed price. It is to note that the data we used for the 2020 games are only up to July 7 and therefore cannot accurately depict the sales for that year.
 

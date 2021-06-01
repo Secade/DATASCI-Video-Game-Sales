@@ -203,11 +203,17 @@ These graphs shows the genres of games popular for the top 3 ESRB ratings (Matur
 
 For the everyone rating, famous genres are sports, miscellanous, puzzle, and racing games. These kinds of games are definitely for any age since they do not contain much violence, gore, or suggestive themes. These kinds of games stay true to their genre and replicate what they are trying to copy. Sports games like FIFA and 2K stay true to the rules of the sport. Racing games are focused on the racing aspect of the game, while puzzles are focused on the thinking aspect of games. 
 
+Everyone Rating Graph
+
 ![Image](/images/101.png)
 
 For Teen and Mature, they have similar Top 3 genres which are role-playing, action, and shooter. These games now tend to have violence and sensitive themes within the game hence for such rating. The difference between the two are in the top 4 and 5. Teen has more fighting and strategy games. These games have mild violence only. Fighting games are just people punching or hurting one another while strategy games are mostly destruction based objectives. 
 
+Teen Rating Graph
+
 ![Image](/images/102.png)
+
+Mature Rating Graph
 
 ![Image](/images/103.png)
 

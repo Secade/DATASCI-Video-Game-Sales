@@ -124,7 +124,7 @@ This graph shows how more action-related genres have more sales than the rest.
 
 ###  What kind of ESRB ratings do top selling games have?
 
-###  Which publishers have received the most sales? (Ky)
+###  Which publishers have received the most sales?
 This section shows the top 10 publishers according to their total sales. As seen in the graph, the top 3 Publishers according to our data is Nintendo, Activision, and Electronic Arts. It makes sense that Nintendo takes the number one spot because the company has been around for a while. Nintendo was founded around 130 years ago (September 23, 1889). They have been releasing their games for a long time which leads to more sale for their company. Activision also takes the top spot which we think is only possible because of ther continuous release of the Call of Duty Series. They release a new Call of Duty once every few years which makes their sales go higher.
 
 ![Image](/images/topPubs.png)
@@ -162,7 +162,7 @@ Upon closer inspection, the top genre for each region slightly differs. For JP, 
 
 ![Image](genre_region_indiv.png)
 
-###  On what platform do games receive more sales? (Ky)
+###  On what platform do games receive more sales? 
 
 In this section, we wanted to find the data on the top platforms that received the most sales. From the Graph, it can be ovserved that the top consoles are usually under the companies of Microsoft and Sony along with the PCs. From these observations, we can hypothesize that gaming platforms that were produced by Sony and Microsoft have high sales in games. The same can be concluded with the PC. From this data, we can suggest to future game developers that if they want to possibly have high game sales, they can focus developing games PCs and gaming platforms developed by Microsoft and Sony. 
 
@@ -192,7 +192,9 @@ This graph is to simply show the trend of throughout the years. It can be easily
 
 ![Image](yearly_game_sales.png)
 
-###  What is the trend of newer video game releases per console? (Ky)
+###  What is the trend of newer video game releases per console? 
+Using the data that we collected, in this section, we discuss the current trend of video games per genre. In order to do this, filtered our data to only have games from 2019 onwards. Using the total sales as a metric, we determined whether the genre is trending or not. From the graph, it can be observed that the genre, Role-Playing is the most trending according to the total sales. From this, we can hypothesize that games with the genre of Role-Playing will sell a lot more compared to the other Genres.
+
 ![Image](/images/trend.png)
 
 ###  What are the top genres for the ESRB Ratings?

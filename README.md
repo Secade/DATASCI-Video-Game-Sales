@@ -179,7 +179,7 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 ###  Are newer games able to compare against older games with sales?
 
 ###  What is the trend of newer video game releases per console? (Ky)
-![Image](https://github.com/kenshin657/DATASCI-Video-Game-Sales/blob/main/images/trend.png)
+![Image](/images/trend.png)
 
 ###  What are the top genres for the ESRB Ratings?
 

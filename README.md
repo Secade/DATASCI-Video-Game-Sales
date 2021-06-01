@@ -166,7 +166,7 @@ Upon closer inspection, the top genre for each region slightly differs. For JP, 
 
 In this section, we wanted to find the data on the top platforms that received the most sales. From the Graph, it can be ovserved that the top consoles are usually under the companies of Microsoft and Sony along with the PCs. From these observations, we can hypothesize that gaming platforms that were produced by Sony and Microsoft have high sales in games. The same can be concluded with the PC. From this data, we can suggest to future game developers that if they want to possibly have high game sales, they can focus developing games PCs and gaming platforms developed by Microsoft and Sony. 
 
-![Image](/images/top%2010%20game%20consoles.png)
+![Image](/images/topConsoles.png)
 
 ###  What is the relationship between the critic & user scores to the game’s sales?
 

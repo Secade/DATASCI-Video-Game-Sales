@@ -178,6 +178,20 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 
 ###  Are newer games able to compare against older games with sales?
 
+In terms of old and new games, the consideration is subjective. For others, games created below 2018 would be considered as old while for others those games would still be considered relatively new. For this project, what we considered as old are games from 1971 to 2014 and new games are from 2015 to 2020.
+
+As seen in the graph below, old games, throughout the years increase in sales. This is expected as old games are still available for purchase even now. It is noticeable that there are peaks within the sales, this could be because of a release of a sought-after game or a release of a new gaming console. For example in the year 2007, the Playstation 3 and Xbox 360 were released. In that year, the sales for video games reached a total of 958.4 million.
+
+![Image](old_game_sales.png)
+
+In newer games, the trend of sales seems to decrease per year. This could possibly be because of the rising popularity of Free-to-Play games. Popular games of this era like League of Legends, APEX legends, Dota 2, Fortnite and many more are Free-to-Play games where people can choose to purchase cosmetics for a fixed price. It is to note that the data we used for the 2020 games are only up to July 7 and therefore cannot accurately depict the sales for that year.
+
+![Image](new_game_sales.png)
+
+This graph is to simply show the trend of throughout the years. It can be easily seen that although there are many rising and falling sales every other year, the trend is still continuously going up. As more light is shed upon video games and the video game industry, together with advancement of technology, sales continue to rise as more people are learn about video games.
+
+![Image](yearly_game_sales.png)
+
 ###  What is the trend of newer video game releases per console? (Ky)
 ![Image](/images/trend.png)
 

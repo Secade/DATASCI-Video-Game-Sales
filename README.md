@@ -126,7 +126,7 @@ This graph shows how more action-related genres have more sales than the rest.
 
 For the ESRB ratings of the top selling games, the graph shows that M has the highest selling game. It is then followed by T and then E10. It can be seen that the distance between the sales of the two top selling games for M is quite huge and that majority of the games that have an "M" rating are concentrated below the 50 million mark. In terms of consistent sales, the most evenly distributed would be the "E" rating, which stands for Everyone. This may be because of the wide range of customers it have and by not limiting the game to certain age groups, more units could be sold at a consistent rate.
 
-<p align="center">![Image](/images/esrb_sales.png)</p>
+![Image](/images/esrb_sales.png)
 
 ###  Which publishers have received the most sales?
 This section shows the top 10 publishers according to their total sales. As seen in the graph, the top 3 Publishers according to our data is Nintendo, Activision, and Electronic Arts. It makes sense that Nintendo takes the number one spot because the company has been around for a while. Nintendo was founded around 130 years ago (September 23, 1889). They have been releasing their games for a long time which leads to more sale for their company. Activision also takes the top spot which we think is only possible because of ther continuous release of the Call of Duty Series. They release a new Call of Duty once every few years which makes their sales go higher.

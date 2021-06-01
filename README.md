@@ -178,7 +178,9 @@ As it can be seen in the scatterplot, the trends of the critic and user scores a
 
 ###  Are newer games able to compare against older games with sales?
 
-###  What is the trend of newer video game releases per console? (Ky)
+###  What is the trend of newer video game releases per genre? (Ky)
+Using the data that we collected, in this section, we discuss the current trend of video games per genre. In order to do this, filtered our data to only have games from 2019 onwards. Using the total sales as a metric, we determined whether the genre is trending or not. From the graph, it can be observed that the genre, Role-Playing is the most trending according to the total sales. From this, we can hypothesize that games with the genre of Role-Playing will sell a lot more compared to the other Genres. 
+
 ![Image](/images/trend.png)
 
 ###  What are the top genres for the ESRB Ratings?

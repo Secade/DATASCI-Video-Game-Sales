@@ -226,6 +226,13 @@ Mature Rating Graph
 
 Video game sales continue to rise throughout the years. As new games with better graphics and new consoles with more features continue to appeal to the public, sales for video games are expected to keep increasing. It is possible that sales can be affected by the genre of the game, the platform of which it can be played on, and the publisher of the game. It is also to note that old games can possibly still increase in sales as long as they are available on the market since "retro games" are very popular. If one wishes to create a popular game, it is recommended that they develop a video game that is available on all platforms, has an ESRB Rating of either Mature, Teen, or Everyone, and has the genre of either Shooter, Sports, or Action as those seem to be the most popular for video games.
 
+### Group: CAKE-W
+- John Christopher Arjonillo
+- Jeff Capistrano
+- Kristen Espiritu
+- Jude Kang
+- Kyle Tagle
+
 ## References
 https://www.grandviewresearch.com/industry-analysis/video-game-market
 https://www.reuters.com/article/sponsored/popularity-of-gaming

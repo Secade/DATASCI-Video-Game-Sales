@@ -80,7 +80,7 @@ Each column has its own definition which is listed below.
 - critic_score - The game rating provided by game critics
 - user_score - The game rating provided by the players
 - total_shipped - Total copies solid (in millions)
-- global_sales - Total sales earned (in millions)
+- global_sales - Total sales garnered (in millions)
 - na_sales - Sales from North America (in millions)
 - jp_sales - Sales from Japan (in millions)
 - pal_sales - Sales from PAL (Most of Europe, Asia, Oceania, etc.) (in millions)
